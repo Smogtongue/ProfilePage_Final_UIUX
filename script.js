@@ -228,7 +228,6 @@ window.addEventListener("keydown", (event) => {
 // ----------------------------------------------------------------------
 // PART 2: Modal Functionality and Smooth Scrolling for Navbar Links
 // ----------------------------------------------------------------------
-
 // --------------------------
 // Modal Functionality
 // --------------------------
@@ -245,9 +244,7 @@ document.querySelectorAll('.portfolio-item').forEach(item => {
     modalContent.classList.add("show");
 
     document.getElementById("modal-title").textContent = item.getAttribute("data-title");
-    const modalImage = document.getElementById("modal-image");
-    modalImage.src = item.getAttribute("data-image");
-    modalImage.alt = item.getAttribute("data-title");
+    // Removed modalImage assignment since it's no longer used
 
     document.getElementById("modal-objective").textContent = item.getAttribute("data-objective");
 
@@ -321,9 +318,7 @@ document.querySelectorAll('.portfolio-item').forEach(item => {
       modalContent.classList.add("show");
 
       document.getElementById("modal-title").textContent = item.getAttribute("data-title");
-      const modalImage = document.getElementById("modal-image");
-      modalImage.src = item.getAttribute("data-image");
-      modalImage.alt = item.getAttribute("data-title");
+      // Removed modalImage assignment since it's no longer used
 
       document.getElementById("modal-objective").textContent = item.getAttribute("data-objective");
 

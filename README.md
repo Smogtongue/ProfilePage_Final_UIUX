@@ -85,7 +85,7 @@ Follow these steps to set up the project locally:
 2. **Navigate to the project directory**:
 
    ```bash
-   cd Test_setup
+   cd UX_UI_FINAL
    ```
 
 3. **Install dependencies** (if applicable):
