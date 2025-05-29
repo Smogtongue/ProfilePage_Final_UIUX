@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>test_setup</title>
+<link rel="stylesheet" href="style.css?v=2.1" />
+<style>
+        body {
+            opacity: 0; /* Hide content initially */
+            transition: opacity 0.5s ease; /* Smooth fade-in effect */
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                color-scheme: light; /* Force light mode */
+            }
+        }
+
+    </style>
+</head>
+
+<body onload="document.body.style.opacity='1';"> <!-- Fade in content after load -->
+    <main>
+      
+    
+      <div id= "home-button" class="water-drop-container">
+          <svg class="water-drop" height="100" preserveAspectRatio="xMidYMid meet" viewBox="0 0 550 450" width="100vw" xmlns="http://www.w3.org/2000/svg">
+              <g stroke="none" stroke-width="0">
+                  <path fill="#4CB4E7" d="m270.13 328.63c-.13-.05-2.22-.35-4.63-.63-2.4-.3-5.1-.65-6-.77-.9-.15-2.4-.2-3.33-.13-1.27.13-1.65.08-1.52-.13.13-.2.08-.22-.13-.13-.17.13-.5.03-.73-.17-.22-.22-.52-.4-.68-.43-.13-.05-.5-.15-.8-.28-.32-.13-1.23-.38-2-.6-1.23-.3-4.65-1.45-10.82-3.58-1.75-.63-14.9-7.32-17-8.68-5.68-3.65-6.05-3.92-11-7.93-4.6-3.7-7.28-6.45-11.85-12.15-4.32-5.38-6.85-9.05-9.73-14.05-2.78-4.88-6.1-13.18-7.68-19.13-.25-.95-.52-1.92-.6-2.13-.08-.2-.32-1.1-.52-2s-.47-2.08-.63-2.63c-.15-.55-.35-1.73-.47-2.63-.13-.9-.38-2.53-.52-3.63-.2-1.35-.25-4.82-.17-10.63.15-12.15.7-15.82 3.7-25 1.45-4.35 4.2-11.43 5.28-13.5.38-.75.7-1.5.7-1.67 0-.15.3-.6.65-1 .57-.63.6-.7.22-.98s-.38-.35.03-.98c.22-.35.57-.6.75-.52.2.08.35.03.35-.08 0-.13-.13-.28-.28-.32-.2-.08-.15-.35.13-.93.52-1 12.2-20.42 14.45-24.02.9-1.45 4.9-8.02 8.85-14.63 3.97-6.6 8.18-13.5 9.32-15.38 1.15-1.85 5.5-9 9.65-15.88s8.27-13.65 9.15-15.07 4.03-6.6 7-11.5 6.15-10.1 7.07-11.55c.93-1.45 1.8-2.85 1.98-3.13 1.77-2.9 2.75-4.15 3.2-4.05.35.1.85-.38 2.1-2.08.9-1.2 1.63-2.4 1.63-2.67 0-1.2 3.47-3.63 6.72-4.7 1.75-.57 5.03-.4 7.07.38 1.58.57 1.88.85 1.5 1.33-.2.22 0 .52.65 1.08.5.43 1.15.9 1.42 1.02 1.42.77 4.95 5.6 8.6 11.82 1.02 1.73 3.17 5.32 4.78 8 36.17 60.38 39.5 65.9 40.5 67.38.38.55 2.15 3.42 3.92 6.38 4.32 7.18 6.82 11.1 11.98 18.92 2.38 3.6 5.2 8.05 6.25 9.88 3.33 5.75 4.8 8.4 4.9 8.85.08.4.1.4.47.05.38-.38.45-.32.93.75 2.53 5.7 4.93 13.07 5.93 18.3 2.67 14.1 2.3 25.6-1.3 40.25-.85 3.42-3.75 11.43-5.68 15.63-2.13 4.63-8.2 14.02-11.6 18-4.5 5.22-13.65 13.88-14.5 13.68-.2-.05-.28.03-.17.17.08.15-.03.28-.25.28s-.32.13-.25.25c.08.15-.13.25-.47.25-.65 0-1.35.4-6.07 3.38-7 4.38-10.6 6.4-13.95 7.8s-8.68 3.42-10.38 3.95c-3.83 1.15-7.4 2.6-6.63 2.65.15 0-.75.28-2 .63-2.78.75-7 .88-11.75.38-3.45-.35-6.43-.25-10.6.38-2.22.32-4.6.43-5.15.22z"/>
+              </g>
+          </svg>
+          <svg class="curved-text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+              <path id="curve" d="M 10 20 A 45 45 0 1 0 90 20" fill="transparent" />
+              <text>
+                  <textPath href="#curve" startOffset="50%" text-anchor="middle" fill="white" font-size="20">h o m e</textPath>
+              </text>
+          </svg>
+      </div>
+
+      <header>
+          <nav id="global-nav">
+            <ul>
+              <li><a href="#first">Home</a></li>
+              <li><a href="#second">About Me</a></li>
+              <li><a href="#second">Portfolio</a></li>
+              <li><a href="#third">Meet Macrodata Refinement</a></li>
+              <li><a href="#fourth">Contact</a></li>
+            </ul>
+          </nav>
+      </header>
+
+      <section class="first">
+        <div class="bg-image"></div>
+        <div class="content">
+          <div class="intro">
+            <h2 class="title-greeting">Hello, I am</h2>
+            <h1 class="title-name">Seth Milchick</h1>
+          </div>
+          <div class="intro-image">
+            <img src="images/Milchick.png" alt="Seth Milchick" class="image-greeting">
+          </div>
+        </div>
+
+
+      </section>
+
+      <section class="second">
+       <div class="about-me">
+
+        <div class="about-me-info">
+            <h3>About Me</h3>
+            <p>
+              At Lumon Industries, structure is serenity—and I make sure every Refiner finds their place within it. Whether leading team-building exercises that foster unwavering corporate devotion, or overseeing wellness protocols that ensure peak productivity, I guarantee that morale and efficiency are always aligned.
+              <br>
+              <br>
+              With a keen eye for detail and an unwavering commitment to order, I help shape the precise, harmonious workplace that Lumon demands. After all, a happy worker is a productive worker—and at Lumon, we thrive together.
+            </p>
+        </div>        
+
+        <div class="portfolio">
+            <h3>Portfolio</h3>
+            <div class="portfolio-grid">
+              <div class="portfolio-item" tabindex="0"  
+                  data-title="Employee Recognition Programs" 
+                  data-image="images/employee_recognition.webp"
+                  data-objective="Motivation is everything at Lumon. Seth Milchick spearheaded innovative programs designed to foster unwavering dedication through structured incentives, ensuring employees remain engaged and aligned with corporate values."
+                  data-keypoints="Quarterly Dance Party|Data-driven Morale Adjustments|Unwavering Commitment"
+                  data-keypoints-images="images/dance_party.webp|images/morale_adjustments.webp|images/commitment.webp">
+                <h4>Employee Recognition Programs</h4>
+              </div>
+
+              <div class="portfolio-item" tabindex="0" 
+                  data-title="Team Leadership Excellence" 
+                  data-image="images/team_leadership.webp"
+                  data-objective="Lumon's backbone relies on discipline, efficiency, and structured camaraderie—all cultivated by Seth Milchick through meticulously crafted team synergy programs. He ensures every department operates seamlessly within Lumon's guidelines."
+                  data-keypoints="Workflow Optimization|Team-building Exercises|Reinforcing Hierarchy"
+                  data-keypoints-images="images/workflow.webp|images/team_building.webp|images/protocols.webp">
+                <h4>Team Leadership Excellence</h4>
+              </div>
+
+              <div class="portfolio-item" tabindex="0" 
+                  data-title="Corporate Culture Initiatives" 
+                  data-image="images/corporate_culture.webp"
+                  data-objective="Corporate identity at Lumon is engineered for unwavering loyalty. Behavioral reinforcement programs, pioneered by Milchick, ensure deep alignment with corporate values, strengthening the bond between employees and the organization."
+                  data-keypoints="Onboarding Rituals|Engagement Recalibration|Cultivating Dedication"
+                  data-keypoints-images="images/onboarding.webp|images/engagement.webp|images/dedication.webp">
+                <h4>Corporate Culture Initiatives</h4>
+              </div>
+          </div>
+
+        </div>
+
+        <!-- Modal Section -->
+        <div id="portfolio-modal" class="modal" role="dialog" aria-labelledby="modal-title" aria-describedby="modal-objective">
+            <div class="modal-content">
+                <button class="close" aria-label="Close modal">&times;</button>
+                <h2 id="modal-title" tabindex="0"></h2>
+                <img id="modal-image" src="" alt="Portfolio Image" style="max-width:100%; height:auto; display:block; margin:10px auto;" tabindex="0">
+                <p id="modal-objective" tabindex="0"></p>
+                <ul id="modal-keypoints" tabindex="0"></ul>
+            </div>
+        </div>
+
+
+        
+        </div>
+          <img src="images/MilchickBalloons.png" alt="Seth Milchick with Balloons" class="about-me-image">
+      </section>
+
+      <section class="third" id="third">
+
+        <div class="banner">
+          <div class="img-container">
+            <img src="images/team-milchick-camera.png" alt="Seth Milchick with camera">
+          </div>
+        </div>
+
+        <div class="meet-my-team">
+          <h3>Meet Macrodata Refinement</h3>
+          <p>
+            At Lumon Industries, severed work is <b>pure work</b>—free from distraction, devoted to refining numbers into something greater than yourself. Here, in the pristine corridors of MDR, harmony is more than an ideal—it’s a <b>requirement.</b> Our proprietary methodologies ensure that every Refiner is aligned with Lumon’s core values, fostering an environment of structured excellence and quiet contentment.
+            <br>
+            <br>
+            <b>Your work is meaningful, even if its meaning isn’t for you to know.</b>
+            <br>
+            <i>Remember: Your innie is counting on you.</i>
+          </p>
+        </div>
+
+        <div class="team-cards-grid">
+
+        <!-- Card for Irving Bailiff -->
+        <div class="team-card" data-easter-gif="images/irvingdistress.webp" tabindex="0" aria-label="Team member Irving Bailiff, Employee Code: 08-454">
+          <div class="card-logo"></div>
+          <div class="card-info">
+            <h4>hello, my name is</h4>
+            <div class="card-name">
+              <h5>IRVING BAILIFF</h5>
+              <h5>SVR'D ACCESS</h5>
+            </div>
+            <h4>employee code</h4>
+            <h5>08-454</h5>
+          </div>
+
+          <div class="card-image">
+            <img src="images/IrvingB.png" alt="Irving Bailiff">
+          </div>
+        </div>
+
+        <!-- Card for Mark Scout -->
+        <div class="team-card" data-easter-gif="images/markdistress.webp"  tabindex="0" aria-label="Team member Mark Scout, Employee Code: 08-927">
+          <div class="card-logo"></div>
+          <div class="card-info">
+            <h4>hello, my name is</h4>
+            <div class="card-name">
+              <h5>MARK SCOUT</h5>
+              <h5>SVR'D ACCESS</h5>
+            </div>
+            <h4>employee code</h4>
+            <h5>08-927</h5>
+          </div>
+          
+          <div class="card-image">
+            <img src="images/MarkS.png" alt="Mark Scout">
+          </div>
+        </div>
+
+        <!-- Card for Dylan George -->
+        <div class="team-card" data-easter-gif="images/dylandistress.webp"  tabindex="0" aria-label="Team member Dylan George, Employee Code: 08-974">
+          <div class="card-logo"></div>
+          <div class="card-info">
+            <h4>hello, my name is</h4>
+            <div class="card-name">
+              <h5>DYLAN GEORGE</h5>
+              <h5>SVR'D ACCESS</h5>
+            </div>
+            <h4>employee code</h4>
+            <h5>08-974</h5> 
+          </div>
+          
+          <div class="card-image">
+            <img src="images/DylanG.png" alt="Dylan George">
+          </div>
+        </div>
+
+        <!-- Card for Helly Riggs -->
+        <div class="team-card" data-easter-gif="images/hellydistress.webp" tabindex="0" aria-label="Team member Helly Riggs, Employee Code: 08-999">
+          <div class="card-logo"></div>
+          <div class="card-info">
+            <h4>hello, my name is</h4>
+            <div class="card-name">
+              <h5>HELLY RIGGS</h5>
+              <h5>SVR'D ACCESS</h5>
+            </div>
+            <h4>employee code</h4>
+            <h5>08-988</h5>
+          </div>
+          
+          <div class="card-image">
+            <img src="images/HellyR.png" alt="Helly Riggs">
+          </div>
+        </div>         
+      </div>
+
+      </section>
+
+      <section class="fourth">
+
+        <div class="contact">
+          <h3>Contact</h3>
+          <p>
+            If you have any questions or would like to learn more about our team, please feel free to reach out. We are always here to help and ensure that your experience at Lumon Industries is exceptional.
+          </p>
+
+          <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+
+        <footer>
+          <p>Seth Milchick is a character from the television show Severance, played by Tramell Tillman. <br> All images &copy; 2025 Severance and AppleTV.</p> 
+        </footer>
+
+      </section>
+
+    </main>
+
+<!-- SCRIPTS -->    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/Observer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"></script>
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
