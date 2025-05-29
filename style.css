@@ -68,6 +68,7 @@ body {
 html {
   overscroll-behavior: none;
   overflow-x: hidden;
+  color-scheme: light;
 }
 
 h1 {
