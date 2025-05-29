@@ -6,28 +6,29 @@ Welcome to our responsive web application—a dynamic site built to showcase tea
 
 ## Features
 
-### 1. Responsive Carousel
+### 1. Section Navigation
 
-- **Team Cards Grid**: A horizontally scrollable carousel that houses team cards. On larger screens, multiple cards are visible, while on mobile devices, the layout automatically adjusts so that only one card is displayed at a time.
-- **Mobile Optimization**: Ensures optimal display by scaling text and images dynamically, along with padding adjustments that maintain layout clarity regardless of screen size.
-- **User Interaction**: Smooth transitions and snapping ensure a pleasant experience when browsing through team profiles.
+- **ScrollTrigger Integration**: Utilizes GSAP's ScrollTrigger to pin sections and enable smooth, scroll-based transitions between content blocks.
+- **Gesture & Keyboard Support**: Listens for wheel events, touch gestures, and standard keyboard inputs (arrow keys and PageUp/PageDown) to trigger navigational actions.
+- **Adaptive Control**: Navigation behavior adapts based on device type and orientation, ensuring a consistent experience across platforms. 
 
-### 2. Modal Functionality
+### 2. Home Button
+
+- **Context-Sensitive Visibility**: The home button appears only when needed (for instance, after navigating away from the top of the page) and is designed responsively to work well on mobile devices.
+- **Ease of Access**: Provides a quick way for users to reset the view and jump back to the top section of the application.
+
+### 3. Modal Functionality
 
 - **Portfolio Detail View**: Clicking on a portfolio item summons a modal window that reveals detailed information about the project.
 - **Keyboard Accessibility**: The modal is accessible via keyboard controls—pressing the Enter key activates selections, making it easier for users who rely on assistive technologies.
 - **Animations**: Fade-in and scale animations, powered by GSAP, enhance the modal’s entrance and exit, providing a polished look and feel.
 
-### 3. Section Navigation
+### 4. Responsive Carousel
 
-- **ScrollTrigger Integration**: Utilizes GSAP's ScrollTrigger to pin sections and enable smooth, scroll-based transitions between content blocks.
-- **Gesture & Keyboard Support**: Listens for wheel events, touch gestures, and standard keyboard inputs (arrow keys and PageUp/PageDown) to trigger navigational actions.
-- **Adaptive Control**: Navigation behavior adapts based on device type and orientation, ensuring a consistent experience across platforms.
+- **Team Cards Grid**: A horizontally scrollable carousel that houses team cards. On larger screens, multiple cards are visible, while on mobile devices, the layout automatically adjusts so that only one card is displayed at a time.
+- **Mobile Optimization**: Ensures optimal display by scaling text and images dynamically, along with padding adjustments that maintain layout clarity regardless of screen size.
+- **User Interaction**: Smooth transitions and snapping ensure a pleasant experience when browsing through team profiles.
 
-### 4. Home Button
-
-- **Context-Sensitive Visibility**: The home button appears only when needed (for instance, after navigating away from the top of the page) and is designed responsively to work well on mobile devices.
-- **Ease of Access**: Provides a quick way for users to reset the view and jump back to the top section of the application.
 
 ## Technologies Used
 
