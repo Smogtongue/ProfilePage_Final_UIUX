@@ -2,7 +2,11 @@
 
 ## Overview
 
-Welcome to our responsive web application—a dynamic site built to showcase team members, portfolio items, and seamless navigation effects. The project combines modern web technologies (HTML, CSS, and JavaScript) with robust animation tools (GSAP and ScrollTrigger) to deliver an immersive user experience. Whether you're browsing on desktop or mobile, every interaction is designed to feel smooth and engaging.
+This is a portfolio project that definitely got away from me somewhat. I wanted to create a visually exciting experience that was still accessible and navigable with keypresses. I learned how to use GSAP animation timelines for sectional navigation (which should work on mobile too! I've done a lot of testing.)
+
+I've selected the character Seth Milchick from Severance as my profile subject, which provided me a great deal to draw from that feels corporate while also being entertaining. There are some small easter eggs hidden around the page.
+
+Using the Severance Wiki, I was able to define a root style guide to format my css with. I tweaked the values of Brass and Timber from their originals for readability on the webpage. 
 
 ## Features
 
